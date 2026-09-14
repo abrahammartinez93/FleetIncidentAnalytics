@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+*.local
+*.secret
+
+# Data files - keep repository clean
+data/raw/*
+data/processed/*
+
+# Excel / temporary files
+*.xlsx
+*.xls
+*.tmp
+*.temp
+
+# Power BI temporary/cache files
+*.pbi
+*.pbit
+
+# SQL local/temp files
+*.bak
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# Windows
+$RECYCLE.BIN/
